@@ -384,6 +384,55 @@
       "prompt": "content"
     }
   },
+  "electric_pt": {
+    "file_name": "electric_pt.json",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "electric_pt_s": {
+    "file_name": "electric_pt_shuffle.json",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "electric_pt_15": {
+    "file_name": "electric_pt_15.json",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "setiment_stock": {
+    "file_name": "sentiment_train_alpace.json",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+    }
+  },
+  "setiment_stock_rm": {
+    "file_name": "sentiment_rm_alpace.json",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input"
+    }
+  }, 
+  "setiment_stock_rm_real": {
+    "file_name": "sentiment_rm_real_alpace.json",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+    },
+    "ranking": true
+  },
+  "setiment_stock_rlhf": {
+    "file_name": "sentiment_rlhf_alpace.json",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input"
+    }
+  },
   "starcoder_python": {
     "hf_hub_url": "bigcode/starcoderdata",
     "ms_hub_url": "AI-ModelScope/starcoderdata",
