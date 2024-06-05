@@ -47,6 +47,17 @@ class GeneratingArguments:
         metadata={"help": "Exponential penalty to the length that is used with beam-based generation."},
     )
 
+## QA generation args
+    filepath: str = field(
+        default="",
+        metadata={"help": "the file path of raw input lines."},
+    )
+    prompt_path: str = field(
+        default=True,
+        metadata={"help": "the path of generation prompt"},
+    )
+
+
     def to_dict(self) -> Dict[str, Any]:
         args = asdict(self)
         if args.get("max_new_tokens", -1) > 0:

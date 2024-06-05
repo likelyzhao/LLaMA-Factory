@@ -7,6 +7,7 @@ from .utils import Role, split_dataset
 __all__ = [
     "PairwiseDataCollatorWithPadding",
     "get_dataset",
+    "load_single_dataset",
     "Template",
     "get_template_and_fix_tokenizer",
     "templates",
